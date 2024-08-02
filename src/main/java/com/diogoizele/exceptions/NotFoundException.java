@@ -1,4 +1,4 @@
-package com.diogoizele.java.exceptions;
+package main.java.com.diogoizele.exceptions;
 
 public class NotFoundException extends RuntimeException {
 

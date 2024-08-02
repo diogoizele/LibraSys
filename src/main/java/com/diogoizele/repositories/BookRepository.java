@@ -1,7 +1,7 @@
-package com.diogoizele.java.repositories;
+package main.java.com.diogoizele.repositories;
 
-import com.diogoizele.java.exceptions.NotFoundException;
-import com.diogoizele.java.models.Book;
+import main.java.com.diogoizele.exceptions.NotFoundException;
+import main.java.com.diogoizele.models.Book;
 
 import java.util.List;
 

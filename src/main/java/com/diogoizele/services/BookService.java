@@ -1,11 +1,11 @@
-package com.diogoizele.java.services;
+package main.java.com.diogoizele.services;
 
-import com.diogoizele.java.models.Book;
-import com.diogoizele.java.repositories.BookRepository;
-import com.diogoizele.java.repositories.BookRepositoryImpl;
+import main.java.com.diogoizele.models.Book;
+import main.java.com.diogoizele.utils.Utils;
+import main.java.com.diogoizele.repositories.BookRepository;
+import main.java.com.diogoizele.repositories.BookRepositoryImpl;
+
 import java.util.List;
-
-import static com.diogoizele.java.utils.Utils.generateId;
 
 public class BookService {
 
@@ -20,7 +20,7 @@ public class BookService {
         String id;
 
         do {
-            id = generateId();
+            id = Utils.generateId();
         } while (idExists(id));
 
         final Book book = new Book(title, author, id, true);

@@ -1,4 +1,4 @@
-package com.diogoizele.java.models;
+package main.java.com.diogoizele.models;
 
 import java.util.Objects;
 

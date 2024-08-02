@@ -1,7 +1,6 @@
-package com.diogoizele.java;
+package main.java.com.diogoizele;
 
-import com.diogoizele.java.controllers.BookController;
-import com.diogoizele.java.models.Book;
+import main.java.com.diogoizele.controllers.BookController;
 
 public class Application {
 

@@ -1,4 +1,4 @@
-package com.diogoizele.java.models;
+package main.java.com.diogoizele.models;
 
 public record Address(String street, String number, String neighbor, String postalCode, String state, String Country) {
 

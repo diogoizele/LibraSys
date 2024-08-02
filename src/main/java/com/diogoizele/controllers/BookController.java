@@ -1,7 +1,7 @@
-package com.diogoizele.java.controllers;
+package main.java.com.diogoizele.controllers;
 
-import com.diogoizele.java.models.Book;
-import com.diogoizele.java.services.BookService;
+import main.java.com.diogoizele.models.Book;
+import main.java.com.diogoizele.services.BookService;
 
 public class BookController {
 

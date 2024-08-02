@@ -1,4 +1,4 @@
-package com.diogoizele.java.utils;
+package main.java.com.diogoizele.utils;
 
 import java.security.SecureRandom;
 
